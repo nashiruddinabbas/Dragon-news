@@ -6,5 +6,4 @@ const Home = () => {
         <Navigate to={'/category/0'}></Navigate>
     );
 };
-
 export default Home;

@@ -9,7 +9,6 @@ const Details = () => {
     const {id} = useParams();
     const data = useLoaderData();
     const news = data.find(news => news.id == id);
-
     const location = useLocation();
     console.log(location)
     const navigate = useNavigate();
